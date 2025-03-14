@@ -265,7 +265,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         try {
-            let response = await fetch("http://127.0.0.1:8000/create-event/", {
+            let response = await fetch("https://newsse-852faa67b80a.herokuapp.com/create-event/", {
                 method: "POST",
                 body: formData,
                 headers: {
@@ -309,7 +309,7 @@ document.getElementById("event-form").addEventListener("submit", async function(
             }
 
             try {
-                let response = await fetch("http://127.0.0.1:8000/create-event/", {
+                let response = await fetch("https://newsse-852faa67b80a.herokuapp.com/create-event/", {
                     method: "POST",
                     body: formData,
                     headers: {
