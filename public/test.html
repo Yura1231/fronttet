@@ -57,7 +57,7 @@
 
     async function loadEvents(category = "all") {
         try {
-            let url = "https://newsse-852faa67b80a.herokuapp.com/events/";
+            let url = "https://newsse-852faa67b80a.herokuapp.com/api/events/";
             if (category !== "all") {
                 url += `?category=${category}`;
             }
